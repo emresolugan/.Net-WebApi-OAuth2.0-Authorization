@@ -1,0 +1,31 @@
+﻿@model Bus_Staj.Models.DataContext
+
+
+<script src="~/Scripts/jquery-3.1.0.js"></script>
+<script>
+    
+    function BusList()
+    {
+        $("#tblBus").html("");
+
+        $.getJSON(uri)
+        .done(function(data)
+        {
+            $.each(data, function(i,bus) {
+                $("#tblBus").append(
+                    "<tr><td>" + bus.id + "</td>" +
+                    "<td>" + bus.plaka + "</td>" + 
+                    "<td>" + bus.Seat_Count + "</td>" + 
+                    "<td>" + bus.Model + "</td>" + 
+                    "<td> <input type="
+                    )
+            }
+        })
+    }
+</script>
+
+<div>
+       <h2>Bus List</h2>
+       <table id="tblBus"></table>
+</div>
+

@@ -1,0 +1,21 @@
+﻿ #topnav li a:link, #topnav li a:visited, #topnav li a:hover {
+            display: block;
+            margin: 0;
+            padding: 15px 20px;
+            color: white;
+            background-color: #666666;
+        }
+
+        #topnav li a:hover, #topnav ul li.active a {
+            color: white;
+            background-color: #94a8c3;
+        }
+
+        #links_left a {
+            color: #292929;
+            font-size: 13px;
+        }
+
+        input[type="reset"] {
+            margin: 5px 61px;
+        }
