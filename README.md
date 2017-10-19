@@ -6,9 +6,10 @@ I used OAuth2.0 authorization in this project so , you can't access to data by l
 
 This is web browser's picture so, it seems that after oauth authorization our access is denied..
 
-<a href="https://postimages.org/" target="_blank"><img src="https://s26.postimg.org/gs7pa7hkp/oauth.png" alt="oauth"/></a><br/><br/>
+![oauth](https://user-images.githubusercontent.com/12279132/31764961-79f03b64-b4cb-11e7-992a-f0381590828e.png)
 
 
-If you use postman we can see our data..
+If you use postman you can see the data..
 
-<a href="http://postimg.org/image/vcos51cj9/" target="_blank"><img src="https://s26.postimg.org/a315u6w8p/postman.png" alt="postman"/></a><br/><br/>
+![postman](https://user-images.githubusercontent.com/12279132/31764962-7a14c3d0-b4cb-11e7-8644-6096ec0e2a31.png)
+
